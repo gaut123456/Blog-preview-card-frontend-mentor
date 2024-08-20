@@ -1,0 +1,103 @@
+body {
+    background-color: rgb(244, 208, 78);
+    font-family: 'Figtree', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    padding-top: 0.5rem;
+    width: 24rem;
+    height: 32.625rem;
+    background-color: white;
+    border-radius: 1.25rem;
+    border-color: rgb(17, 17, 17);
+    border-width: 0.0625rem;
+    border-style: solid;
+    box-shadow: 10px 10px 1px rgba(1, 1, 1, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    padding-top: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banner img {
+    border-radius: 0.75rem;
+}
+
+.content {
+    padding-left: 1.5rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 10px;
+    height: 24px;
+    background-color: rgb(244, 208, 78);
+    border-radius: 0.25rem;
+    font-size: 12px;
+    font-weight: 500;
+    width: fit-content;
+  }
+  
+  .tag p {
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+  }
+
+.date p {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 150%;
+}
+
+.title h1 {
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0px;
+    line-height: 150%;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.author img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+    object-fit: cover;
+}
+
+.author p {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0; 
+}
+
+.description p {
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 150%;
+}
